@@ -17,6 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# GitA
+*.gitattributes
+
 # =========================
 # Operating System Files
 # =========================
