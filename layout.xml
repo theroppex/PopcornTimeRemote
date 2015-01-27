@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout >
-	<row weight="2">
+	<row >
+	</row>
+	<row >
+		<button id="tabLeft" icon="PREVIOUS" color="purple" onTap="tabL" />
+		<button id="tabRight" icon="NEXT" color="purple" onTap="tabR" />
 	</row>
 	<row>
 		<button id="btnBack" icon="BACK" color="purple" onTap="back" />
-		<button id="btnUp" icon="UP" color="purple" onTap="up"  />
+		<button id="btnUp" icon="UP" color="purple" onTap="up" onHold="season_up" />
 		<button id="btnFind" icon="SEARCH" color="purple" onTap="find" />
 	</row>
 	<row>
@@ -14,7 +18,7 @@
 	</row>
 	<row>
 		<button id="btnPlay" icon="PLAY" color="purple" onTap="play" />
-		<button id="btnDown" icon="DOWN" color="purple" onTap="down" />
+		<button id="btnDown" icon="DOWN" color="purple" onTap="down" onHold="season_down" />
 		<button id="btnStart" icon="POWER" color="#009600" onTap="start"  />
 	</row>
 </layout>
